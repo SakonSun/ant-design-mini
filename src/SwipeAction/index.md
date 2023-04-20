@@ -62,7 +62,7 @@ toc: 'content'
 | disabled     | boolean         | false | 禁止滑动                                    |
 | onSwipeStart | 滑动开始         | (data: object, e: string) => void |e: 组件上data-xxx中的数据, data: direction(滑动的按钮是左边还是右边)，swiped(是否滑开)  |
 | onSwipeEnd   | 滑动结束         | (data: object, e: string) => void |e: 组件上data-xxx中的数据, data: direction(滑动的按钮是左边还是右边)，swiped(是否滑开)|
-| onButtonTap  | 按钮触发         | (data: object, e: string) => void |e: 组件上data-xxx中的数据, data: direction(滑动的按钮是左边还是右边)，btnIdx(按钮的index, 靠近主体的部分为0) |
+| onButtonTap  | 按钮触发         | (data: object, e: string) => void |e: 组件上data-xxx中的数据, data: direction(滑动的按钮是左边还是右边)，btnIdx(按钮的index, 靠近主体的部分为0)。 |
 
 ### SwipeButton
 | 属性         | 类型            | 默认值 | 说明                  |
